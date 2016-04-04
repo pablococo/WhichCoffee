@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6806CC891C9AD7B0003CF0A2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806CC881C9AD7B0003CF0A2 /* CustomCell.swift */; };
+		6806CC8B1C9AE3D4003CF0A2 /* CoffeebeanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6806CC8A1C9AE3D4003CF0A2 /* CoffeebeanCell.swift */; };
+		6875603A1C9A46B600AB9EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687560391C9A46B600AB9EBB /* AppDelegate.swift */; };
+		6875603C1C9A46B600AB9EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875603B1C9A46B600AB9EBB /* ViewController.swift */; };
+		6875603F1C9A46B600AB9EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6875603D1C9A46B600AB9EBB /* Main.storyboard */; };
+		687560411C9A46B600AB9EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687560401C9A46B600AB9EBB /* Assets.xcassets */; };
+		687560441C9A46B600AB9EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687560421C9A46B600AB9EBB /* LaunchScreen.storyboard */; };
+		6875604F1C9A46B600AB9EBB /* WhichCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875604E1C9A46B600AB9EBB /* WhichCoffeeTests.swift */; };
+		6875605A1C9A46B600AB9EBB /* WhichCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687560591C9A46B600AB9EBB /* WhichCoffeeUITests.swift */; };
+		687560681C9A4E4C00AB9EBB /* StarbucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687560671C9A4E4C00AB9EBB /* StarbucksViewController.swift */; };
+		6875606A1C9A4E5900AB9EBB /* CoffeebeanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687560691C9A4E5900AB9EBB /* CoffeebeanViewController.swift */; };
+		6875606C1C9A4E6700AB9EBB /* PaulbassetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875606B1C9A4E6700AB9EBB /* PaulbassetViewController.swift */; };
+		6875606E1C9A4E7000AB9EBB /* EgoteraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875606D1C9A4E7000AB9EBB /* EgoteraViewController.swift */; };
+		68FABB8C1C9CDA4C002AFB4C /* StarbuckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABB8B1C9CDA4C002AFB4C /* StarbuckViewController.swift */; };
+		68FABB8E1C9CE00B002AFB4C /* StarbucksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABB8D1C9CE00B002AFB4C /* StarbucksCell.swift */; };
+		68FABB901C9D27D6002AFB4C /* PaulbassettCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABB8F1C9D27D6002AFB4C /* PaulbassettCell.swift */; };
+		68FABB921C9D2AAB002AFB4C /* EdiyaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FABB911C9D2AAB002AFB4C /* EdiyaCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6875604B1C9A46B600AB9EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6875602E1C9A46B600AB9EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687560351C9A46B600AB9EBB;
+			remoteInfo = WhichCoffee;
+		};
+		687560561C9A46B600AB9EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6875602E1C9A46B600AB9EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687560351C9A46B600AB9EBB;
+			remoteInfo = WhichCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6806CC881C9AD7B0003CF0A2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6806CC8A1C9AE3D4003CF0A2 /* CoffeebeanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeebeanCell.swift; sourceTree = "<group>"; };
+		687560361C9A46B600AB9EBB /* WhichCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhichCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687560391C9A46B600AB9EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6875603B1C9A46B600AB9EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6875603E1C9A46B600AB9EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687560401C9A46B600AB9EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687560431C9A46B600AB9EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687560451C9A46B600AB9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6875604A1C9A46B600AB9EBB /* WhichCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhichCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6875604E1C9A46B600AB9EBB /* WhichCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichCoffeeTests.swift; sourceTree = "<group>"; };
+		687560501C9A46B600AB9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687560551C9A46B600AB9EBB /* WhichCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhichCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687560591C9A46B600AB9EBB /* WhichCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichCoffeeUITests.swift; sourceTree = "<group>"; };
+		6875605B1C9A46B600AB9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687560671C9A4E4C00AB9EBB /* StarbucksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksViewController.swift; sourceTree = "<group>"; };
+		687560691C9A4E5900AB9EBB /* CoffeebeanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeebeanViewController.swift; sourceTree = "<group>"; };
+		6875606B1C9A4E6700AB9EBB /* PaulbassetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaulbassetViewController.swift; sourceTree = "<group>"; };
+		6875606D1C9A4E7000AB9EBB /* EgoteraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgoteraViewController.swift; sourceTree = "<group>"; };
+		68FABB8B1C9CDA4C002AFB4C /* StarbuckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbuckViewController.swift; sourceTree = "<group>"; };
+		68FABB8D1C9CE00B002AFB4C /* StarbucksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksCell.swift; sourceTree = "<group>"; };
+		68FABB8F1C9D27D6002AFB4C /* PaulbassettCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaulbassettCell.swift; sourceTree = "<group>"; };
+		68FABB911C9D2AAB002AFB4C /* EdiyaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdiyaCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687560331C9A46B600AB9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560471C9A46B600AB9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560521C9A46B600AB9EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6875602D1C9A46B600AB9EBB = {
+			isa = PBXGroup;
+			children = (
+				687560381C9A46B600AB9EBB /* WhichCoffee */,
+				6875604D1C9A46B600AB9EBB /* WhichCoffeeTests */,
+				687560581C9A46B600AB9EBB /* WhichCoffeeUITests */,
+				687560371C9A46B600AB9EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687560371C9A46B600AB9EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687560361C9A46B600AB9EBB /* WhichCoffee.app */,
+				6875604A1C9A46B600AB9EBB /* WhichCoffeeTests.xctest */,
+				687560551C9A46B600AB9EBB /* WhichCoffeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687560381C9A46B600AB9EBB /* WhichCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				687560391C9A46B600AB9EBB /* AppDelegate.swift */,
+				68FABB8D1C9CE00B002AFB4C /* StarbucksCell.swift */,
+				6806CC8A1C9AE3D4003CF0A2 /* CoffeebeanCell.swift */,
+				68FABB8F1C9D27D6002AFB4C /* PaulbassettCell.swift */,
+				68FABB911C9D2AAB002AFB4C /* EdiyaCell.swift */,
+				6875603B1C9A46B600AB9EBB /* ViewController.swift */,
+				68FABB8B1C9CDA4C002AFB4C /* StarbuckViewController.swift */,
+				687560691C9A4E5900AB9EBB /* CoffeebeanViewController.swift */,
+				6875606B1C9A4E6700AB9EBB /* PaulbassetViewController.swift */,
+				6875606D1C9A4E7000AB9EBB /* EgoteraViewController.swift */,
+				6875603D1C9A46B600AB9EBB /* Main.storyboard */,
+				687560401C9A46B600AB9EBB /* Assets.xcassets */,
+				687560421C9A46B600AB9EBB /* LaunchScreen.storyboard */,
+				687560451C9A46B600AB9EBB /* Info.plist */,
+				6806CC881C9AD7B0003CF0A2 /* CustomCell.swift */,
+				687560671C9A4E4C00AB9EBB /* StarbucksViewController.swift */,
+			);
+			path = WhichCoffee;
+			sourceTree = "<group>";
+		};
+		6875604D1C9A46B600AB9EBB /* WhichCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6875604E1C9A46B600AB9EBB /* WhichCoffeeTests.swift */,
+				687560501C9A46B600AB9EBB /* Info.plist */,
+			);
+			path = WhichCoffeeTests;
+			sourceTree = "<group>";
+		};
+		687560581C9A46B600AB9EBB /* WhichCoffeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687560591C9A46B600AB9EBB /* WhichCoffeeUITests.swift */,
+				6875605B1C9A46B600AB9EBB /* Info.plist */,
+			);
+			path = WhichCoffeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687560351C9A46B600AB9EBB /* WhichCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6875605E1C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffee" */;
+			buildPhases = (
+				687560321C9A46B600AB9EBB /* Sources */,
+				687560331C9A46B600AB9EBB /* Frameworks */,
+				687560341C9A46B600AB9EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhichCoffee;
+			productName = WhichCoffee;
+			productReference = 687560361C9A46B600AB9EBB /* WhichCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687560491C9A46B600AB9EBB /* WhichCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687560611C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffeeTests" */;
+			buildPhases = (
+				687560461C9A46B600AB9EBB /* Sources */,
+				687560471C9A46B600AB9EBB /* Frameworks */,
+				687560481C9A46B600AB9EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6875604C1C9A46B600AB9EBB /* PBXTargetDependency */,
+			);
+			name = WhichCoffeeTests;
+			productName = WhichCoffeeTests;
+			productReference = 6875604A1C9A46B600AB9EBB /* WhichCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687560541C9A46B600AB9EBB /* WhichCoffeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687560641C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffeeUITests" */;
+			buildPhases = (
+				687560511C9A46B600AB9EBB /* Sources */,
+				687560521C9A46B600AB9EBB /* Frameworks */,
+				687560531C9A46B600AB9EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687560571C9A46B600AB9EBB /* PBXTargetDependency */,
+			);
+			name = WhichCoffeeUITests;
+			productName = WhichCoffeeUITests;
+			productReference = 687560551C9A46B600AB9EBB /* WhichCoffeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6875602E1C9A46B600AB9EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SwiftBook;
+				TargetAttributes = {
+					687560351C9A46B600AB9EBB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 58XF2TVK7G;
+					};
+					687560491C9A46B600AB9EBB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 687560351C9A46B600AB9EBB;
+					};
+					687560541C9A46B600AB9EBB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 687560351C9A46B600AB9EBB;
+					};
+				};
+			};
+			buildConfigurationList = 687560311C9A46B600AB9EBB /* Build configuration list for PBXProject "WhichCoffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6875602D1C9A46B600AB9EBB;
+			productRefGroup = 687560371C9A46B600AB9EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687560351C9A46B600AB9EBB /* WhichCoffee */,
+				687560491C9A46B600AB9EBB /* WhichCoffeeTests */,
+				687560541C9A46B600AB9EBB /* WhichCoffeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687560341C9A46B600AB9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687560441C9A46B600AB9EBB /* LaunchScreen.storyboard in Resources */,
+				687560411C9A46B600AB9EBB /* Assets.xcassets in Resources */,
+				6875603F1C9A46B600AB9EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560481C9A46B600AB9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560531C9A46B600AB9EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687560321C9A46B600AB9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FABB901C9D27D6002AFB4C /* PaulbassettCell.swift in Sources */,
+				68FABB8E1C9CE00B002AFB4C /* StarbucksCell.swift in Sources */,
+				6875606E1C9A4E7000AB9EBB /* EgoteraViewController.swift in Sources */,
+				68FABB8C1C9CDA4C002AFB4C /* StarbuckViewController.swift in Sources */,
+				687560681C9A4E4C00AB9EBB /* StarbucksViewController.swift in Sources */,
+				6875606C1C9A4E6700AB9EBB /* PaulbassetViewController.swift in Sources */,
+				6875603C1C9A46B600AB9EBB /* ViewController.swift in Sources */,
+				6875606A1C9A4E5900AB9EBB /* CoffeebeanViewController.swift in Sources */,
+				6806CC8B1C9AE3D4003CF0A2 /* CoffeebeanCell.swift in Sources */,
+				6806CC891C9AD7B0003CF0A2 /* CustomCell.swift in Sources */,
+				68FABB921C9D2AAB002AFB4C /* EdiyaCell.swift in Sources */,
+				6875603A1C9A46B600AB9EBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560461C9A46B600AB9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875604F1C9A46B600AB9EBB /* WhichCoffeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687560511C9A46B600AB9EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6875605A1C9A46B600AB9EBB /* WhichCoffeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6875604C1C9A46B600AB9EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687560351C9A46B600AB9EBB /* WhichCoffee */;
+			targetProxy = 6875604B1C9A46B600AB9EBB /* PBXContainerItemProxy */;
+		};
+		687560571C9A46B600AB9EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687560351C9A46B600AB9EBB /* WhichCoffee */;
+			targetProxy = 687560561C9A46B600AB9EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6875603D1C9A46B600AB9EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6875603E1C9A46B600AB9EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687560421C9A46B600AB9EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687560431C9A46B600AB9EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6875605C1C9A46B600AB9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6875605D1C9A46B600AB9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6875605F1C9A46B600AB9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WhichCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		687560601C9A46B600AB9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WhichCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		687560621C9A46B600AB9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhichCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhichCoffee.app/WhichCoffee";
+			};
+			name = Debug;
+		};
+		687560631C9A46B600AB9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhichCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhichCoffee.app/WhichCoffee";
+			};
+			name = Release;
+		};
+		687560651C9A46B600AB9EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhichCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhichCoffee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		687560661C9A46B600AB9EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhichCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftbook.WhichCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhichCoffee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687560311C9A46B600AB9EBB /* Build configuration list for PBXProject "WhichCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6875605C1C9A46B600AB9EBB /* Debug */,
+				6875605D1C9A46B600AB9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6875605E1C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6875605F1C9A46B600AB9EBB /* Debug */,
+				687560601C9A46B600AB9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687560611C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687560621C9A46B600AB9EBB /* Debug */,
+				687560631C9A46B600AB9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687560641C9A46B600AB9EBB /* Build configuration list for PBXNativeTarget "WhichCoffeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687560651C9A46B600AB9EBB /* Debug */,
+				687560661C9A46B600AB9EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6875602E1C9A46B600AB9EBB /* Project object */;
+}
