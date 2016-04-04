@@ -16,6 +16,7 @@ class CoffeebeanCell : UITableViewCell{
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    //Git
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
