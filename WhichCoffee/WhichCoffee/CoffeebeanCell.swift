@@ -17,6 +17,7 @@ class CoffeebeanCell : UITableViewCell{
         super.awakeFromNib()
     }
     //Git test
+    //gg test
     
     
     override func setSelected(selected: Bool, animated: Bool) {
